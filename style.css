@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    border: 3px solid #000;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 70px 150px;
+    min-width: 100vh;
+}
+
+
+
+/*header style*/
+
+header {
+        max-width: 100%; 
+        text-align: center; 
+        margin: 0 auto; 
+        position: relative;
+    }
+
+header i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+}
+
+header h1 {
+    background-color: #f3b08c; 
+    color: aliceblue;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+header p{
+    padding: 25px 25px;
+    border-bottom: 2px dashed #f3b08c;
+}
+
+header p span{
+    color: #f3b08c;
+    font-weight: bold;
+}
+
+/*main tag*/
+
+main h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main figure img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* leadership-management-team*/
+
+.leadership-management-team{
+    text-align: center;
+}
+.leadership-management-team h3{
+    background-color: #f3b08c; 
+    color: aliceblue;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+main .leadership-management-team .leadership-management-team-1{
+padding-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+main .leadership-management-team .leadership-management-team-2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* development team*/
+.development-team {
+    text-align: center;
+}
+
+.development-team h3{
+    background-color:#f3b08c; 
+    color: aliceblue;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+ .development-team .development-team-1{
+padding-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+main .development-team .development-team-2{
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+/*sales-marketing-team*/
+.sales-marketing-team{
+    text-align: center;
+}
+
+.sales-marketing-team h3{
+    background-color:#f3b08c; 
+    color: aliceblue;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+main .sales-marketing-team .sales-marketing-team-1{
+padding-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+main .sales-marketing-team .sales-marketing-team-2{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+/*Media query*/
+@media only screen and (max-width:950px){
+    body{
+        padding: 70px 20px;
+    }
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+main figure img {
+    width: 120px;
+    transition: transform 0.3s ease; 
+}
+
+main figure img:hover {
+    transform: scale(1.1); 
+}
