@@ -1,0 +1,1 @@
+Basic Level of Project for Beginers, Project done with Html & Css. Website shows company member details.![company member details](https://github.com/santhosh2767/Company-member-team-page/assets/123973189/aa89814d-c182-41d0-a70e-631753b4a99e)
